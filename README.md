@@ -9,12 +9,15 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Data Collection: Import essential libraries like pandas, numpy, sklearn, matplotlib, and seaborn. Load the dataset using pandas.read_csv().
-2. Data Preprocessing: Address any missing values in the dataset. Select key features for training the models. Split the dataset into training and testing sets with train_test_split().
-3. Linear Regression: Initialize the Linear Regression model from sklearn. Train the model on the training data using .fit(). Make predictions on the test data using .predict(). Evaluate model performance with metrics such as Mean Squared Error (MSE) and the R² score.
-
-4. Polynomial Regression: Use PolynomialFeatures from sklearn to create polynomial features. Fit a Linear Regression model to the transformed polynomial features. Make predictions and evaluate performance similar to the linear regression model.
-5. Visualization: Plot the regression lines for both Linear and Polynomial models. Visualize residuals to assess model performance.
+1. Import Libraries: Bring in essential libraries such as pandas, numpy, matplotlib, and sklearn.
+2. Load Dataset: Import the dataset containing car prices along with relevant features.
+3. Data Preprocessing: Manage missing data and select key features for the model, if required.
+4. Split Data: Divide the dataset into training and testing subsets.
+5. Train Model: Build a linear regression model and train it using the training data.
+6. Make Predictions: Apply the model to predict outcomes for the test set.
+7. Evaluate Model: Measure the model's performance using metrics like R² score, Mean Absolute Error (MAE), etc.
+8. Check Assumptions: Plot residuals to verify assumptions like homoscedasticity, normality, and linearity.
+9. Output Results: Present the predictions and evaluation metrics.
 
 ## Program:
 ```
